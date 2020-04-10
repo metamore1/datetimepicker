@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d44af170-6bfe-45e5-a28f-ecf08c499b82" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/datetimepicker.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datepicker/karma.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datepicker/ng-package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datepicker/ng-package.prod.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datepicker/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datepicker/src/lib/_calendar-body.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datepicker/src/lib/_calendar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datepicker/src/lib/_clock-view.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datepicker/src/lib/_datepicker-content.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datepicker/src/lib/_datepicker-toggle.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datepicker/src/lib/_elevation.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datepicker/src/lib/calendar-body.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datepicker/src/lib/calendar-body.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datepicker/src/lib/calendar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datepicker/src/lib/calendar.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datepicker/src/lib/clock-view.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datepicker/src/lib/clock-view.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datepicker/src/lib/core/date-adapter.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datepicker/src/lib/core/date-formats.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datepicker/src/lib/core/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datepicker/src/lib/core/native-date-adapter.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datepicker/src/lib/core/native-date-formats.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datepicker/src/lib/datepicker-animations.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datepicker/src/lib/datepicker-content.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datepicker/src/lib/datepicker-errors.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datepicker/src/lib/datepicker-input.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datepicker/src/lib/datepicker-intl.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datepicker/src/lib/datepicker-module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datepicker/src/lib/datepicker-toggle.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datepicker/src/lib/datepicker-toggle.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datepicker/src/lib/datepicker.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datepicker/src/lib/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datepicker/src/lib/moment-adapter/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datepicker/src/lib/moment-adapter/moment-date-adapter.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datepicker/src/lib/moment-adapter/moment-date-formats.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datepicker/src/lib/month-view.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datepicker/src/lib/month-view.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datepicker/src/lib/prebuilt-themes/deeppurple-amber.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datepicker/src/lib/prebuilt-themes/indigo-pink.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datepicker/src/lib/prebuilt-themes/pink-bluegrey.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datepicker/src/lib/prebuilt-themes/purple-green.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datepicker/src/lib/public-api.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datepicker/src/lib/theming.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datepicker/src/lib/year-view.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datepicker/src/lib/year-view.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datepicker/src/lib/years-view.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datepicker/src/lib/years-view.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datepicker/src/public_api.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datepicker/src/test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datepicker/tsconfig.lib.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datepicker/tsconfig.spec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datepicker/tslint.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/dist.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1aMFExRMm46RQBLczAXaOGn7dcO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d44af170-6bfe-45e5-a28f-ecf08c499b82" name="Default Changelist" comment="" />
+      <created>1586537447535</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586537447535</updated>
+      <workItem from="1586537451536" duration="813000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2121" y="174" key="RollbackChangesDialog" timestamp="1586538176751">
+      <screen x="1440" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2121" y="174" key="RollbackChangesDialog/3360.0.1920.1080/1440.0.1920.1080/0.0.1440.900@1440.0.1920.1080" timestamp="1586538176751" />
+    <state x="2058" y="286" width="683" height="508" key="find.popup" timestamp="1586538065708">
+      <screen x="1440" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2058" y="286" width="683" height="508" key="find.popup/3360.0.1920.1080/1440.0.1920.1080/0.0.1440.900@1440.0.1920.1080" timestamp="1586538065708" />
+  </component>
+</project>
