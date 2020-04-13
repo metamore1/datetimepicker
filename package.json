@@ -1,0 +1,73 @@
+{
+  "$schema": "./node_modules/ng-packagr/package.schema.json",
+  "name": "@metamore1/datepicker",
+  "version": "0.0.1",
+  "description": "Angular Material Datepicker Fork with Timepicker",
+  "keywords": [
+    "frontend",
+    "datepicker"
+  ],
+  "author": "",
+  "homepage": "",
+  "license": "MIT",
+  "repository": "github:metamore1/datetimepicker",
+  "bugs": {
+    "url": ""
+  },
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "lint": "ng lint",
+    "build": "ng build",
+    "dist": "npm run dist:pkg && npm run dist:scss && node ./scripts/dist.js",
+    "dist:pkg": "ng build datepicker -c production",
+    "dist:scss": "scss-bundle -e ./datepicker/src/lib/theming.scss -d ./dist/_theming.scss",
+    "commitmsg": "commitlint -e",
+    "preupload": "npm run dist",
+    "upload": "npm publish --access=public dist/",
+    "release": "standard-version --message 'build: release v%s'"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "~0.8.0",
+    "@angular-devkit/build-ng-packagr": "~0.8.0",
+    "@angular/animations": "^6.1.9",
+    "@angular/cdk": "^6.4.7",
+    "@angular/cli": "6.2.3",
+    "@angular/common": "^6.1.9",
+    "@angular/compiler": "^6.1.9",
+    "@angular/compiler-cli": "^6.1.9",
+    "@angular/core": "^6.1.9",
+    "@angular/forms": "^6.1.9",
+    "@angular/http": "^6.1.9",
+    "@angular/language-service": "^6.1.9",
+    "@angular/material": "^6.4.7",
+    "@angular/platform-browser": "^6.1.9",
+    "@angular/platform-browser-dynamic": "^6.1.9",
+    "@angular/router": "^6.1.9",
+    "@commitlint/cli": "^5.0.0",
+    "@commitlint/config-angular": "^5.0.0",
+    "@types/moment-timezone": "^0.5.4",
+    "core-js": "^2.5.7",
+    "cpx": "^1.5.0",
+    "fs-extra": "^5.0.0",
+    "moment": ">= 2.22.2",
+    "moment-timezone": ">= 0.5.21",
+    "ng-packagr": ">=3.0.2",
+    "rimraf": "^2.6.2",
+    "rxjs": "^6.3.3",
+    "rxjs-compat": "^6.0.0-rc.0",
+    "scss-bundle": "^2.1.2",
+    "standard-version": "^4.3.0",
+    "tsickle": ">=0.33.0",
+    "tslib": "^1.9.0",
+    "tslint": "~5.9.0",
+    "typescript": "~2.9.2",
+    "zone.js": "^0.8.26"
+  },
+  "standard-version": {
+    "scripts": {
+      "postbump": "npm run dist",
+      "posttag": "git push --follow-tags origin master"
+    }
+  }
+}
